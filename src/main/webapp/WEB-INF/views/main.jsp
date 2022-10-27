@@ -24,6 +24,7 @@
                         <div id="lbutton">←</div>
                         <div id="rbutton">→</div>
                         <div id="currentNum">1/5</div>
+                        TEST
                     </div>
                 </div>
             </div>
