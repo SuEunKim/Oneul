@@ -118,7 +118,7 @@
 		}
 	</select>
 	
-		<select id="qlistFaq" statementType="CALLABLE" parameterType="java.util.HashMap">
+	<select id="qlistFaq" statementType="CALLABLE" parameterType="java.util.HashMap">
 		{  
 			CALL qlistFaq( 
 				#{startNum}, #{endNum},
@@ -127,13 +127,13 @@
 		}
 	</select>
 	
-	<update  id="qinsertFaq" statementType="CALLABLE" parameterType="java.util.HashMap">
+	<insert  id="qinsertFaq" statementType="CALLABLE" parameterType="java.util.HashMap">
 		{ 
 			CALL qinsertFaq(	
 			#{ con_q }, #{ kind }, #{ con_a } 
 			) 
 		}
-	</update>
+	</insert>
 	
 	<update  id="qUpdateFaq" statementType="CALLABLE" parameterType="java.util.HashMap">
 		{ 

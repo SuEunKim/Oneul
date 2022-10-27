@@ -1,4 +1,3 @@
-
 function choiceDayCheck( ){
 	if(document.formmm.selectedDate.value==""){
 		alert("날짜를 선택해주세요");

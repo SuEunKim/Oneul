@@ -12,7 +12,8 @@
 }
 .qna_px_list{
 	width: 90%;
-	height: 700px;
+	/* height: 700px; */
+	height:auto; overflow:hidden;
 	margin: 0 auto;
 }
 	table {
